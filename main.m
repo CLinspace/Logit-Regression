@@ -1,7 +1,7 @@
 %********realization of logit regression********
 
 %********import data********
-data = xlsread('C:\Users\³Âµä³É\Desktop\»úÆ÷Ñ§Ï°--ÖÜÖ¾»ª\code\chpater3\logit regression\watermelon_data');
+data = xlsread('Your computer path where the data is stored');
 
 %********data preprocess****
 x_data = data(:,1:2);y_data = data(:,3);
@@ -42,7 +42,7 @@ end
     m1 = [-b/w(1,:),0];
     m2 = [0,-b/w(2,:)];
     plot(m1,m2)
-    xlabel('ÃÜ¶È');
-    ylabel('º¬ÌÇÂÊ');
-    title('¶ÔÂÊ»Ø¹é'); 
+    xlabel('å¯†åº¦');
+    ylabel('å«ç³–ç‡');
+    title('å¯¹ç‡å›å½’'); 
 
