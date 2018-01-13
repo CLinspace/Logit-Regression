@@ -1,7 +1,7 @@
 %********realization of logit regression********
 
 %********import data********
-data = xlsread('Your computer path where the data is stored');
+data = xlsread('Your computer path where the data is stored(eg. F:\code\chpater3\logit regression\watermelon_data)');
 
 %********data preprocess****
 x_data = data(:,1:2);y_data = data(:,3);
